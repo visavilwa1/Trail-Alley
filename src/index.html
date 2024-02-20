@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <div class="registration-form">
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+
+      <div class="title-options">
+        <label for="title">Title</label>
+        <label for="Mr.">Mr.</label>
+        <input type="Radio" id="title" name="title" required>
+      
+        <label for="Mrs.">Mrs.</label>
+        <input type="Radio" id="Mrs." name="title" required>
+
+        <label for="Miss">Miss</label>
+        <input type="Radio" id="Miss" name="title" required>
+      </div>
+
+      <div class="form-group">
+        <label for="username">Username: <i class='bx bx-user-circle '></i></label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email: <i class='bx bx-mail-send'></i></label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password: <i class='bx bx-lock'></i></label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="datetime-local" id="date" name="date" required>
+      </div>
+    
+
+     <input type="submit" name="submit" id="submit">
+      <input type="reset" name="reset" id="reset">
+    </form>
+  </div>
+
+</body>
+</html>
