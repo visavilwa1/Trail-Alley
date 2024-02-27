@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness & Self-Care</title>
+    <link rel="stylesheet" href="style.css">
+    <!--  Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#self-care">Self-Care</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+
+       
+    <div class="hero-section">
+        
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/2.avif" alt=""></div>
+                <div class="swiper-slide"><img src="image/photo-1617972883080-16388d14c021.avif" alt=""></div>
+                <div class="swiper-slide"><img src="image/2.avif" alt=""></div>
+                <div class="swiper-slide"><img src="image/2.avif" alt=""></div>
+             
+            </div>
+            
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Embrace Wellness & Self-Care</h1>
+            <p>Take a step towards a healthier and happier life. Find resources, tips, and support for your wellness journey.</p>
+            <a href="login.html" class="cta-button">Get Started</a>
+        </div>
+    </div>
+
+    <div class="self-care-container">
+        <div class="self-care-content">
+            <h2>Self-Care: Prioritize Your Well-Being</h2>
+            <p>Self-care is essential for maintaining a balanced and fulfilling life. It involves taking deliberate actions to care for your mental, emotional, and physical health.</p>
+            <p>Explore our tips and resources to incorporate self-care into your daily routine. Remember, investing time in yourself pays off in improved overall well-being.</p>
+        </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+</html>

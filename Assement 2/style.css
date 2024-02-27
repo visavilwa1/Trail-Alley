@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #db7878; 
+    overflow: hidden; 
+}
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left; 
+}
+
+.navbar a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 50px 40px; 
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+.hero-section::before {
+    content: "Daisy";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.4;
+}
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.swiper-slide {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.swiper-slide img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: #161111;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.self-care-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.self-care-content h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.self-care-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+}
